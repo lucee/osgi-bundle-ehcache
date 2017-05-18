@@ -1,0 +1,2 @@
+jar no longer exist on maven, because of that you have to do 
+mvn install:install-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.5.2 -Dpackaging=jar -Dfile=/Users/mic/Test/lucee-express-4.5.3.019-express/lib/ext/ehcache.jar
